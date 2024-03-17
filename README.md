@@ -16,3 +16,7 @@ number2 = temporary_number.get_number(country="Finland")
 print(number2)
 ```
 Result:
+```
++447893985537
++3584573983862
+```
