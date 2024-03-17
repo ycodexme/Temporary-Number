@@ -1,2 +1,2 @@
 # Temporary-Number
-Simple and Brilliant, TempSMS Scraper for Python
+Scrape Numbers and Messages from https://temporary-phone-number.com
