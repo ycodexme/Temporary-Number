@@ -6,9 +6,9 @@ pip install temporary-number
 ```
 ## 📕Usage
 ### get_number(country)
-| Parameter | Description | Required |
-| - | - |
-| country | Default: UK | False|
+ | Parameter | Description | Required |
+ | --- | --- |
+ | country | Default: UK | False|
 ## 📚Examples
 ### Get Random Number
 Code:
