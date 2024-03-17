@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-vers = "1.0"
+vers = "1.0.0.2"
 
 setup(
     name="temporary-number",
@@ -20,5 +20,6 @@ setup(
     install_requires=[
         "tls-client",
         "beautifulsoup4",
+        "lxml",
     ],
 )
