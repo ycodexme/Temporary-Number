@@ -20,3 +20,14 @@ Result:
 +447893985537
 +3584573983862
 ```
+### Get Messages of Number
+Code:
+```py
+import temporary_number
+
+messages = temporary_number.get_messages("+447893985537")
+for message in messages:
+  print(f"{message.time} | From {message.frm}")
+  print(message.content)
+```
+Result:
