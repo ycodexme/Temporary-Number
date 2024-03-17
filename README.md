@@ -4,6 +4,11 @@ Scrape Numbers and Messages from https://temporary-phone-number.com
 ```
 pip install temporary-number
 ```
+## 📕Usage
+### get_number(country)
+| Parameter | Description | Required |
+| ---- | ---- |
+| country | Default: UK | False|
 ## 📚Examples
 ### Get Random Number
 Code:
