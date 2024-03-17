@@ -11,7 +11,7 @@ setup(
     packages=[
         "temporary-number"
     ],
-    author="@ham_86",
+    author="@ham-86",
     url=f"http://pypi.python.org/pypi/temporary-number",
     license="MIT",
     project_urls={
