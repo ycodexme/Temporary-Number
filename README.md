@@ -36,7 +36,9 @@ Parameters
 
 Example
 ```py
-
+sms_message.content # G-****** is your Google verification code.
+sms_message.frm # Google
+sms_message.time # 9 hours ago
 ```
 ## 📚Examples
 ### Get Random Number
