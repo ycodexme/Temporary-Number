@@ -27,6 +27,11 @@ Example
 temporary_number.get_messages("+447893985537") # Returns list of sms_message
 ```
 ### class sms_message(content, frm, time)
+Parameters
+| Parameter | Type | Description | 
+| --------- | ----------- | -------- | ----------- |
+| Content   | str | Content of message | 
+
 ## 📚Examples
 ### Get Random Number
 Code:
