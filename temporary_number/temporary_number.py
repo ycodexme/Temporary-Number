@@ -5,6 +5,8 @@ import random
 def get_number(country="UK"):
   if country not in ["UK", "US", "France", "Netherlands", "Finland"]:
     raise ValueError("Unsupported Country")
+  if country == "Random":
+    country = random.choice(["UK", "US", "France", "Netherlands", "Finland"])
   session = tls_client.Session(client_identifier="chrome112", random_tls_extension_order=True)
   maxpages = {"UK": 59, "US": 3, "France": 73, "Netherlands": 60, "Finland": 47}
   maxpage = maxpages[country]
@@ -22,8 +24,8 @@ def get_number(country="UK"):
   p = plist[country]
   for a in soup.find_all("a"):
     a = a.get("title", "none")
-    if f"Free {country} Phone Number {p}" in a:
-      a = a.replace(f"Free {country} Phone Number ", "").replace(" ", "")
+    if f"{country} Phone Number {p}" in a:
+      a = a.replace(f"{country} Phone Number ", "").replace(" ", "")
       numbers.append(a)
   return random.choice(numbers)
 
