@@ -1,6 +1,6 @@
 from setuptools import setup, find_packages
 
-vers = "1.0.0.2"
+vers = "1.0.1.1"
 
 setup(
     name="temporary-number",
@@ -9,7 +9,7 @@ setup(
     long_description_content_type="text/markdown",
     long_description=open("README.md", encoding="utf-8").read(),
     packages=[
-        "temporary-number"
+        "temporary_number"
     ],
     author="@ham_86",
     url=f"http://pypi.python.org/pypi/temporary-number",
