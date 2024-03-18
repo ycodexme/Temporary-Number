@@ -3,10 +3,10 @@ import tls_client
 import random
 
 def get_number(country="UK"):
-  if country not in ["UK", "US", "France", "Netherlands", "Finland"]:
-    raise ValueError("Unsupported Country")
   if country == "Random":
     country = random.choice(["UK", "US", "France", "Netherlands", "Finland"])
+  if country not in ["UK", "US", "France", "Netherlands", "Finland"]:
+    raise ValueError("Unsupported Country")
   session = tls_client.Session(client_identifier="chrome112", random_tls_extension_order=True)
   maxpages = {"UK": 59, "US": 3, "France": 73, "Netherlands": 60, "Finland": 47}
   maxpage = maxpages[country]
