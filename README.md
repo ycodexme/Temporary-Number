@@ -9,7 +9,7 @@ pip install temporary-number
 Parameters
 | Parameter | Type | Description | Required | 
 | --------- | ----------- | -------- | ----------- |
-| Country   | ["UK", "US", "France", "Netherlands", "Finland"] | Default: UK | False    | 
+| Country   | ["UK", "US", "France", "Netherlands", "Finland", "Random"] | Default: UK | False    | 
 
 Example
 ```py
