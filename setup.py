@@ -5,7 +5,7 @@ vers = "1.0.0.2"
 setup(
     name="temporary-number",
     version=vers,
-    description="Simple and Brilliant, TempSMS Scraper",
+    description="Simple TempSMS Scraper",
     long_description_content_type="text/markdown",
     long_description=open("README.md", encoding="utf-8").read(),
     packages=[
